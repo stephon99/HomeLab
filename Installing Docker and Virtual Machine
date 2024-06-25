@@ -1,1 +1,32 @@
+Prerequisites for Windows:
+Check System Requirements:
+
+Ensure your Windows version is Windows 10 64-bit: Pro, Enterprise, or Education (Build 15063 or later).
+Make sure your system supports hardware virtualization and that it’s enabled in the BIOS settings.
+Ensure the Windows Subsystem for Linux 2 (WSL 2) feature is enabled.
+
+Download Docker Desktop:
+
+Go to the Docker Desktop for Windows download page.
+Click on "Download for Windows".
+Install Docker Desktop:
+
+Double-click the downloaded Docker Desktop Installer.exe to run the installer.
+Follow the installation wizard steps.
+When prompted, authorize the installer and agree to the terms.
+Choose "Install required Windows components for WSL 2" if not already installed.
+The installer will configure WSL 2 during installation.
+Complete the Installation:
+
+Once the installation is complete, Docker Desktop will start automatically.
+You might need to sign in with your Docker ID (create one if you don't have it).
+Verify Installation:
+
+Open a Command Prompt or PowerShell window.
+Run docker --version to verify Docker is installed and running.
+Run docker run hello-world to verify Docker can pull and run images.
+
+
+Follow this link to be brought to the documentation provided by Docker regarding installing Docker Desktop:
+https://docs.docker.com/desktop/install/windows-install/
 
