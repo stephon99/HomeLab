@@ -16,18 +16,20 @@ Follow the installation wizard steps.
 When prompted, authorize the installer and agree to the terms.
 Choose "Install required Windows components for WSL 2" if not already installed.
 The installer will configure WSL 2 during installation.
+
 Complete the Installation:
 
 Once the installation is complete, Docker Desktop will start automatically.
 You might need to sign in with your Docker ID (create one if you don't have it).
-Verify Installation:
 
-Open a Command Prompt or PowerShell window.
+Verify Installation by opening a Command Prompt or PowerShell window.
 Run docker --version to verify Docker is installed and running.
 Run docker run hello-world to verify Docker can pull and run images.
+
+**Example provided at this link**
+https://github.com/stephon99/HomeLab/issues/1#issue-2373812769
+
 
 
 Follow this link to be brought to the documentation provided by Docker regarding installing Docker Desktop:
 https://docs.docker.com/desktop/install/windows-install/
-
-https://github.com/stephon99/HomeLab/issues/1#issue-2373812769
